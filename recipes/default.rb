@@ -1,4 +1,4 @@
-#https://learn.chef.io/modules/learn-the-basics/ubuntu/bring-your-own-system/configure-a-package-and-service#/
+#Project 2 Final Cloud Deployment Programmatic Approach Plan for OpsWorks Stack and Chef12 for CCA640 (BMitchell) #/
 apt_update 'Update the apt cache daily' do
   frequency 86_400
   action :periodic
